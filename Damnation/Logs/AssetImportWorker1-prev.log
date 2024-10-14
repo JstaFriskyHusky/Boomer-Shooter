@@ -1,0 +1,602 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16084 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Stuff/Boomer-Shooter/Damnation
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50339
+Successfully changed project path to: C:/Stuff/Boomer-Shooter/Damnation
+C:/Stuff/Boomer-Shooter/Damnation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22572] Host "[IP] 10.11.125.59 [Port] 0 [Flags] 2 [Guid] 2918057953 [EditorId] 2918057953 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22572] Host "[IP] 10.11.125.59 [Port] 0 [Flags] 2 [Guid] 2918057953 [EditorId] 2918057953 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 14.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Stuff/Boomer-Shooter/Damnation/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
+    Vendor:   Intel
+    VRAM:     8042 MB
+    Driver:   31.0.101.3413
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012437 seconds.
+- Loaded All Assemblies, in  0.498 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.380 seconds
+Domain Reload Profiling: 877ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (381ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.940 seconds
+Refreshing native plugins compatible for Editor in 5.37 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.915 seconds
+Domain Reload Profiling: 1852ms
+	BeginReloadAssembly (204ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (599ms)
+		LoadAssemblies (428ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (216ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (916ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (695ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (545ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3285 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.3 MB). Loaded Objects now: 3749.
+Memory consumption went from 146.4 MB to 145.1 MB.
+Total: 4.793900 ms (FindLiveObjects: 0.286100 ms CreateObjectMapping: 0.226100 ms MarkObjects: 3.947400 ms  DeleteObjects: 0.332100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 300.946857 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(cf7cc87b4efdd76419658ae563520f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(cf7cc87b4efdd76419658ae563520f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec6627f08a5dc9fb981c6aa39a95869') in 0.021947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(d00aee85727ea2e47ae05a7f12a14e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(d00aee85727ea2e47ae05a7f12a14e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427245d411d6e92516260958e3c0394c') in 0.017457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (1.2 MB). Loaded Objects now: 3750.
+Memory consumption went from 88.5 MB to 87.2 MB.
+Total: 3.894800 ms (FindLiveObjects: 0.220300 ms CreateObjectMapping: 0.107700 ms MarkObjects: 3.379700 ms  DeleteObjects: 0.185900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68.281845 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Bench.prefab
+  artifactKey: Guid(9cbdbc19eaded504da1ee367d14754a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Bench.prefab using Guid(9cbdbc19eaded504da1ee367d14754a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d6bcc10ba47e8826b7686c794601e9') in 0.135205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Billiards.prefab
+  artifactKey: Guid(b8ef28cadf97d5e4a8396066bb0f5149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Billiards.prefab using Guid(b8ef28cadf97d5e4a8396066bb0f5149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb0fab64e5a810cbac88afe8cb7545e') in 0.023221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Computer.prefab
+  artifactKey: Guid(091d9b0ff7cddd04a9d0bb0ab3fb49ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Computer.prefab using Guid(091d9b0ff7cddd04a9d0bb0ab3fb49ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f653e62eb4cc01e2af1993ffdb2558e') in 0.027950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/FacilityProps/Railing.prefab
+  artifactKey: Guid(1898a6c539179b2429e42ce5a9191ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/FacilityProps/Railing.prefab using Guid(1898a6c539179b2429e42ce5a9191ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a3cf858abeebb6435070f796edffff') in 0.014911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Player/Player.prefab
+  artifactKey: Guid(8ecc979279da22f46abaabf603581d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Player.prefab using Guid(8ecc979279da22f46abaabf603581d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f566e14a4516ee1a567aa1c6f3aadc3') in 0.020353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Exterior.prefab
+  artifactKey: Guid(50abfd37b1adaef4a96bf1c21e4e931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Exterior.prefab using Guid(50abfd37b1adaef4a96bf1c21e4e931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94580d61545f3765d9881a8c4bf9175d') in 0.027836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Kitchen Cupboards.prefab
+  artifactKey: Guid(0351dc9099ba97f4182644d5aa8dd41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Kitchen Cupboards.prefab using Guid(0351dc9099ba97f4182644d5aa8dd41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be7823b8b53f06c8912421e9055d976') in 0.030392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Characters/Character.001.prefab
+  artifactKey: Guid(8290bc46be1825d49932e2492480426b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Characters/Character.001.prefab using Guid(8290bc46be1825d49932e2492480426b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f241233fb80ace04c365b6cc1e694745') in 0.140551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/PottedPlant.prefab
+  artifactKey: Guid(0c6ca4086d73a3f49a2f9881aad6a5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/PottedPlant.prefab using Guid(0c6ca4086d73a3f49a2f9881aad6a5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c7a7a29e3239e9262d8cd57c946b6b') in 0.013830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/FBXs/Characters/Character_Base.fbx
+  artifactKey: Guid(efe9925a28d32b24e89525774eeb98e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/FBXs/Characters/Character_Base.fbx using Guid(efe9925a28d32b24e89525774eeb98e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a2fcd2be7549c7de26aa79989a6796') in 0.106699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Coffee Table.prefab
+  artifactKey: Guid(fd6113a896542bc47aa5886ac947db5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Coffee Table.prefab using Guid(fd6113a896542bc47aa5886ac947db5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86838b8767439bc2b647e17c0533cc2') in 0.026179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Chair.prefab
+  artifactKey: Guid(75c341d211f24d341af2c1ea932dcb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Chair.prefab using Guid(75c341d211f24d341af2c1ea932dcb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b315509d215a4929a259bf0d057698c7') in 0.017787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfifceAndWearhouse.prefab
+  artifactKey: Guid(09d4405d335c690459c1ed556f2966aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfifceAndWearhouse.prefab using Guid(09d4405d335c690459c1ed556f2966aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246f05e0e94f26f4a0e202aa1a1b1b1d') in 0.051711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/SmallIsland.prefab
+  artifactKey: Guid(0e7689892d391a243861ca606b47188f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/SmallIsland.prefab using Guid(0e7689892d391a243861ca606b47188f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7233115e41495d61bcdd676938f603bd') in 0.021900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Door Way.prefab
+  artifactKey: Guid(e801c3c3b91420344987bf8c2fb95d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Door Way.prefab using Guid(e801c3c3b91420344987bf8c2fb95d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08ffd239e6c6b8f42f4094922f45866') in 0.023474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/FloppyHolder.prefab
+  artifactKey: Guid(ac8eb458560334040b1112d40ee6b961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/FloppyHolder.prefab using Guid(ac8eb458560334040b1112d40ee6b961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a130bf1623271a13e8a99406c39359') in 0.015015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Collectable.prefab
+  artifactKey: Guid(69052418ffd49a54b88068f91d675c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Collectable.prefab using Guid(69052418ffd49a54b88068f91d675c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679ae2486cd7dde0fc56cdb206907e44') in 0.018535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/BrickEdging.prefab
+  artifactKey: Guid(c8833bcf7c5fb1f488acbe6fa71b0b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/BrickEdging.prefab using Guid(c8833bcf7c5fb1f488acbe6fa71b0b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec40bedf96b0a3fc41e19f88ac84360') in 0.016917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Kitchen Counter.prefab
+  artifactKey: Guid(5fd1baa6ee0fa2a4fac66858aff48a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Kitchen Counter.prefab using Guid(5fd1baa6ee0fa2a4fac66858aff48a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d3ad2b4e93ca24ddc50ca5c537ebaf') in 0.029987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Moving Platform.prefab
+  artifactKey: Guid(ff7503170cfd07849bea94cbb5138899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Moving Platform.prefab using Guid(ff7503170cfd07849bea94cbb5138899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66dce4589d8e6ccfa152b7b798feed63') in 0.026190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/FrontDoor.prefab
+  artifactKey: Guid(3dab4ba3c3c33d44197d2a40bca7ffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/FrontDoor.prefab using Guid(3dab4ba3c3c33d44197d2a40bca7ffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c594f2f0b8c002072e8465d9a495d682') in 0.031844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Dresser.prefab
+  artifactKey: Guid(6fbfcef548a826741b7e1d7a365c7681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Dresser.prefab using Guid(6fbfcef548a826741b7e1d7a365c7681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2da7afb3e94c1eb4ee439df38c6eab') in 0.016418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Couch.prefab
+  artifactKey: Guid(b3028f2b2beb1594aa506062c89247c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Couch.prefab using Guid(b3028f2b2beb1594aa506062c89247c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc44cd12672cf6dbf8e8b957f1df20db') in 0.019160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Rock.001.prefab
+  artifactKey: Guid(e794d64177660494fb3f051c434fa3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/OfficeProps/Rock.001.prefab using Guid(e794d64177660494fb3f051c434fa3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a29dcef19c6eb799bdc101f8245935') in 0.016871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Lamp.prefab
+  artifactKey: Guid(48fa98ac83f49be439b011f0e751b09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Lamp.prefab using Guid(48fa98ac83f49be439b011f0e751b09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c658e826c34b1e4f706227781a937dd8') in 0.014696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Shelf.prefab
+  artifactKey: Guid(8ba6130ecf769b04990b6f28f1573913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Shelf.prefab using Guid(8ba6130ecf769b04990b6f28f1573913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599e0ad733300c1106cfd8358cb365c9') in 0.017002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Shrub.prefab
+  artifactKey: Guid(2cccd80b69ad6de4c818000cd6fa039c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Shrub.prefab using Guid(2cccd80b69ad6de4c818000cd6fa039c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35257e938910d47d8d682957e340b68') in 0.017846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Pool Table.prefab
+  artifactKey: Guid(490472be86e8ee448b1844378bebe6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Pool Table.prefab using Guid(490472be86e8ee448b1844378bebe6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60312ae75b0e4b409c7398efc4dd4a6f') in 0.018837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 4.185953 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/StairCase.prefab
+  artifactKey: Guid(6b453015e14fa834cb51d0b0331f7d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/StairCase.prefab using Guid(6b453015e14fa834cb51d0b0331f7d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e00183b1a9d8b0c4e39640052395f99') in 0.017712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x4.prefab
+  artifactKey: Guid(1a7f433310941dd4c928e73716e3defc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x4.prefab using Guid(1a7f433310941dd4c928e73716e3defc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de6d6292da44072011fefca18a70504') in 0.012242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/SteppingStone3.prefab
+  artifactKey: Guid(9cb3e79b34e09334ca202a10542598fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/SteppingStone3.prefab using Guid(9cb3e79b34e09334ca202a10542598fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9788d40382060c2e8125f1f92002672e') in 0.029049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x3.prefab
+  artifactKey: Guid(5cb28a75d3fc1c84eb65aa4359ce67d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x3.prefab using Guid(5cb28a75d3fc1c84eb65aa4359ce67d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c050123b9af084f84d0d9f150f6e70e') in 0.016816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.3x2x2.prefab
+  artifactKey: Guid(b5d04ff6458b5e6429aeab4f41c2d54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.3x2x2.prefab using Guid(b5d04ff6458b5e6429aeab4f41c2d54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106b1ed8a16ee0fb72c9d239143a2af2') in 0.025013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x5.prefab
+  artifactKey: Guid(b30f7834370d2b449b89e6a96cf0c633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x5.prefab using Guid(b30f7834370d2b449b89e6a96cf0c633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de100fe98d3c6340ab80233f4019c16c') in 0.024693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/FacilityProps/Stairs.prefab
+  artifactKey: Guid(9cbae310b6646bf45b3cee5283d78b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/FacilityProps/Stairs.prefab using Guid(9cbae310b6646bf45b3cee5283d78b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9b26f6a5d9c5e5a176df1bbba18fb9') in 0.027122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Staris.1x1.prefab
+  artifactKey: Guid(ec9f4ce31a71b534faf459e7dcbc5340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Staris.1x1.prefab using Guid(ec9f4ce31a71b534faf459e7dcbc5340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43b6ab2f3e525ca89181516ff6e6f12') in 0.020626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SUPER Character Controller/SUPER Character Controller/Super First Person Controller.prefab
+  artifactKey: Guid(32fce1012f8c24c43af86f00f457f500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/SUPER Character Controller/Super First Person Controller.prefab using Guid(32fce1012f8c24c43af86f00f457f500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373a164b9b3ffd861d132f0ca7138046') in 0.002500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x2.prefab
+  artifactKey: Guid(515c983179cfe834489bb0eb8f7e590a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/StoneBlock.2x2x2.prefab using Guid(515c983179cfe834489bb0eb8f7e590a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b494591438dda3ab266c1902ffb7f9e7') in 0.019296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.460632 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Table_Small.prefab
+  artifactKey: Guid(72cb28fd3a1e1514b9f8a1de4505ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Table_Small.prefab using Guid(72cb28fd3a1e1514b9f8a1de4505ba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b754d44a35cdfeeed6a54c30c5f001fb') in 0.039545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/TV.prefab
+  artifactKey: Guid(35d93e7cb9fe211449d70e52b92b7b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/TV.prefab using Guid(35d93e7cb9fe211449d70e52b92b7b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8367d63cc11c159896b80332805b2ff') in 0.026547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Wall.prefab
+  artifactKey: Guid(0db3745945fa2194780383875f653bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/World Objects/Wall.prefab using Guid(0db3745945fa2194780383875f653bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4cc5720fdec34cb31dc2df24e01306') in 0.022942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/FBXs/WorldObjects/WorldObjects.SkySweptFortress.fbx
+  artifactKey: Guid(b67527fc57534a040be6156dfdb60e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/FBXs/WorldObjects/WorldObjects.SkySweptFortress.fbx using Guid(b67527fc57534a040be6156dfdb60e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a8587c4f675d1135776593db3e97ea') in 0.416247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 109
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Trash Can.prefab
+  artifactKey: Guid(e272a5b99e8c50b4eb4901af92478e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/OminousOffice/HouseProps/Trash Can.prefab using Guid(e272a5b99e8c50b4eb4901af92478e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d51b22756a8c80581e3ba3ad097b213') in 0.032733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Trunk.prefab
+  artifactKey: Guid(be74da9a2904f9f48acb88fea524f902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUPER Character Controller/Demo Assets/Prefabs/SkySweptFortress/Trunk.prefab using Guid(be74da9a2904f9f48acb88fea524f902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e348dc6b00f504d5396db7cfadb37b99') in 0.027597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (1.2 MB). Loaded Objects now: 3768.
+Memory consumption went from 95.1 MB to 93.8 MB.
+Total: 5.507800 ms (FindLiveObjects: 0.250700 ms CreateObjectMapping: 0.177900 ms MarkObjects: 4.853500 ms  DeleteObjects: 0.224400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 93.052492 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671fc76c75bfd628ed4eddcdbae518c2') in 0.001219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
