@@ -365,13 +365,6 @@
 "Assets/Player/Movement.cs"
 "Assets/Player/PlayerCamera.cs"
 "Assets/Player/Weapons.cs"
-"Assets/SUPER Character Controller/Demo Assets/Scripts/Collectable.cs"
-"Assets/SUPER Character Controller/Demo Assets/Scripts/Interactable.cs"
-"Assets/SUPER Character Controller/Demo Assets/Scripts/OminousOffice/Door.cs"
-"Assets/SUPER Character Controller/Demo Assets/Scripts/SkySweptFortress/CollectableCounter.cs"
-"Assets/SUPER Character Controller/Demo Assets/Scripts/SkySweptFortress/CollectableGem.cs"
-"Assets/SUPER Character Controller/Demo Assets/Scripts/SkySweptFortress/MovingPlatform.cs"
-"Assets/SUPER Character Controller/SUPER Character Controller/SUPERCharacterAIO.cs"
 -langversion:9.0
 
 /deterministic
