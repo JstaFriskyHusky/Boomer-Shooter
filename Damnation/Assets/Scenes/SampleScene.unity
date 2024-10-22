@@ -11383,7 +11383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4252823438427632426, guid: 8ecc979279da22f46abaabf603581d90, type: 3}
       propertyPath: groundDrag
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4252823438427632426, guid: 8ecc979279da22f46abaabf603581d90, type: 3}
       propertyPath: crouchSpeed
@@ -11435,7 +11435,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8874248725788648175, guid: 8ecc979279da22f46abaabf603581d90, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< Updated upstream
       value: -212.71594
+=======
+      value: -27.8
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 8874248725788648175, guid: 8ecc979279da22f46abaabf603581d90, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11443,7 +11447,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8874248725788648175, guid: 8ecc979279da22f46abaabf603581d90, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< Updated upstream
       value: 453.58386
+=======
+      value: -0.8
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 8874248725788648175, guid: 8ecc979279da22f46abaabf603581d90, type: 3}
       propertyPath: m_LocalRotation.w
